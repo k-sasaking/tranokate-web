@@ -1,0 +1,197 @@
+<html lang="ja">
+<head>
+    <title>ABOUT | XYZ株式会社</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        h2 {
+            margin-left: 30px;
+        }
+        textarea {
+            height: 300px;
+        }
+        header {
+            background-color: black;
+        }
+        header img {
+            width: 300px;
+        }
+        nav {
+            color: #c9c9c9;
+            background-color: black;
+            border-top: 1px solid white;
+            height:55px;       
+        }
+        nav ul{
+            list-style: none;
+            margin: 0px;
+        }
+        nav li{
+            margin:5px 15px;
+            padding:10px;
+            float: left;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-img {
+            width: 100%;
+        }
+        section h2{
+            margin:15px;
+        }
+        .news {
+            padding: 0px 30px;
+        }
+        .news a {
+            color: #393939;
+            text-decoration: none;
+        }
+        .new{
+            color: red;
+        }
+        .date{
+            margin-left: 40px;
+            color: #939393;
+        }
+        .news {
+            border: 1px solid black;
+            margin: 0px 50px;
+            padding: 0px 50px;
+        }
+        .news ul {
+            list-style: none;
+        }
+        .news .date {
+            margin-right: 20px;
+        }
+        .news .new {
+            margin-left: 30px;
+        }
+        .blog {
+            display: flex;
+        }
+        .blog article{
+            width: 33.33333%;
+            padding: 30px 30px;
+        }
+        .blog article img {
+            width: 100%;
+        }
+        .blog article a {
+            text-decoration: none;
+        }
+        .blog article h3 {
+            margin: 0px;
+        }
+        .service {
+            display: flex;
+        }
+        .service-content {
+            width: 33.3333333%;
+        }
+        .more {
+            text-align: center;
+        }
+        table {
+            margin: 30px auto;
+            width: 70%;
+        }
+        table td{
+            width: 70%;
+        }
+        table th{
+            padding: 10px;
+            background-color: #a9a9a9;
+        }
+        table td{
+            padding-left: 30px;
+            background-color: #ffffff;
+        }
+        textarea {
+            width: 100%;
+        }
+        .submit {
+            text-align: center;
+        }
+        .submit input {
+            background-color: #668ad8;
+            border-radius: 5px;
+            color: #fff;
+            padding: 8px 16px;
+        }
+        footer {
+            padding: 30px;
+            color: white;
+            background-color: #393939;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer ul{
+            list-style: none;
+        }
+        #copyright{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" />
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <sction>
+            <h2 id="about">お問い合わせ</h2>
+            <div class="company">
+                <form>
+                <table>
+                    <tr><th>名前</th><td><input type="text" required/></td></tr>
+                    <tr><th>性別</th><td><input type="radio" value="m"/>男性 <input type="radio" value="w"/>女性 </td></tr>
+                    <tr><th>email</th><td><input type="email" required/></td></tr>
+                    <tr><th>カテゴリー</th><td>
+                        <select>
+                            <option>--------------------▼</option>
+                            <option>会社について</option>
+                            <option>サービスについて</option>
+                            <option>その他</option>
+                        </select>
+                    </td></tr>
+                    <tr><th>内容</th><td><textarea row="10"></textarea></td></tr>
+                </table>
+                <div class="submit">
+                    <input type="submit" value="送信"/>
+                </div>
+                </form>
+            </div>
+        </sction>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="copyright">
+            <p>&copy;  XYZ Ltd. All Rights Reserved</p>
+            <p>XYZ株式会社</p>
+        </div>
+    </footer>
+</body>
+</html>

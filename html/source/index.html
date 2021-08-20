@@ -1,0 +1,209 @@
+<html lang="ja">
+<head>
+    <title>HOME | XYZ株式会社</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        h2 {
+            margin-left: 30px;
+        }
+        header {
+            background-color: black;
+        }
+        header img {
+            width: 300px;
+        }
+        nav {
+            color: #c9c9c9;
+            background-color: black;
+            border-top: 1px solid white;
+            height:55px;       
+        }
+        nav ul{
+            list-style: none;
+            margin: 0px;
+        }
+        nav li{
+            margin:5px 15px;
+            padding:10px;
+            float: left;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-img {
+            width: 100%;
+        }
+        section h2{
+            margin:15px;
+        }
+        .news {
+            padding: 0px 30px;
+        }
+        .news a {
+            color: #393939;
+            text-decoration: none;
+        }
+        .new{
+            color: red;
+        }
+        .date{
+            margin-left: 40px;
+            color: #939393;
+        }
+        .news {
+            border: 1px solid black;
+            margin: 0px 50px;
+            padding: 0px 50px;
+        }
+        .news ul {
+            list-style: none;
+        }
+        .news .date {
+            margin-right: 20px;
+        }
+        .news .new {
+            margin-left: 30px;
+        }
+        .blog {
+            display: flex;
+        }
+        .blog article{
+            width: 33.33333%;
+            padding: 30px 30px;
+        }
+        .blog article img {
+            width: 100%;
+        }
+        .blog article a {
+            text-decoration: none;
+        }
+        .blog article h3 {
+            margin: 0px;
+        }
+        .service {
+            display: flex;
+        }
+        .service-content {
+            width: 33.3333333%;
+        }
+        .service-content img {
+            width: 100%;
+        }
+        .more {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+        }
+        footer {
+            padding: 30px;
+            color: white;
+            background-color: #393939;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer ul{
+            list-style: none;
+        }
+        #copyright{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" />
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <img class="main-img" src="img/sample.jpg">
+        </div>
+        <sction>
+            <h2>NEWS</h2>
+            <div class="news">
+                <ul>
+                    <li><a href="#"><span class="date">2021.4.1</span>会社のホームページリニューアル</a><span class="new">NEW</span></li>
+                    <li><a href="#"><span class="date">2021.3.1</span>△△テレビに取り上げられました</a><span class="new">NEW</span></li>
+                    <li><a href="#"><span class="date">2021.2.1</span>〇〇新聞に取り上げられました</a></li>
+                    <li><a href="#"><span class="date">2021.1.1</span>新規サービスリリース</a></li>
+                </ul>
+                <a href="#">
+                    <p class="more">もっと見る</p>
+                </a>
+            </div>
+        </sction>
+        <sction>
+            <h2 id="service">SERVICE</h2>
+            <div class="service">
+                <div class="service-content">
+                    <img src="img/sample.jpg" />
+                </div>
+                <div class="service-content">
+                    <img src="img/sample.jpg" />
+                </div>
+                <div class="service-content">
+                    <img src="img/sample.jpg" />
+                </div>
+            </div>
+        </sction>
+        <sction>
+            <h2>BLOG</h2>
+            <div class="blog">
+                <article>
+                    <a href="#">
+                        <img src="img/sample.jpg"/>
+                        <h3>ブログタイトル1</h3>
+                        <span class="date">2021年1月1日</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="img/sample.jpg"/>
+                        <h3>ブログタイトル2</h3>
+                        <span class="date">2021年1月1日</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="img/sample.jpg"/>
+                        <h3>ブログタイトル3</h3>
+                        <span class="date">2021年1月1日</span>
+                    </a>
+                </article>
+            </div>
+            <a href="#">
+                <p class="more">もっと見る</p>
+            </a>
+        </sction>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="copyright">
+            <p>&copy;  XYZ Ltd. All Rights Reserved</p>
+            <p>XYZ株式会社</p>
+        </div>
+    </footer>
+</body>
+</html>
